@@ -1,0 +1,26 @@
+#include "resource.h"
+RES_SMOOTHCRIMINAL WAVE "SmoothCriminal.wav"
+
+RES_VERSIONINFO VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS 0x40004
+FILETYPE 0x1
+{
+	BLOCK "StringFileInfo" {
+		BLOCK "040904B0" {
+			VALUE "FileDescription", "Smooth Criminal"
+			VALUE "InternalName", "SmoothCriminal.exe"
+			VALUE "OriginalFilename", "SmoothCriminal.exe"
+			VALUE "CompanyName", "ZeroNaNme project"
+			VALUE "LegalCopyright", "\xA9 ZeroNaNme project. All rights reserved."
+			VALUE "ProductName", "Smooth Criminal"
+			VALUE "FileVersion", "1.0.0.0"
+			VALUE "ProductVersion", "1.0.0.0"
+		}
+	}
+
+	BLOCK "VarFileInfo" {
+		VALUE "Translation", 0x0409 0x04B0  
+	}
+}
